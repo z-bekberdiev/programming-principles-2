@@ -1,0 +1,1 @@
+The repository was created by freshman (first-year student) of Kazakh-British Technical University (KBTU), Bekberdiev Zhantore (25B030147), to upload various directories (folders), containing files of .py extension.
