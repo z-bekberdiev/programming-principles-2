@@ -10,8 +10,14 @@
 > [!NOTE]
 > The table below shows the current status of practical tasks  
 
-| Status        | Name         | Description |
-|---------------|--------------|-------------|
-| `Completed`   | Practice 1   | [README.md](practice-1/README.md)   |
-| `In Progress` | Practice 2   | [README.md](practice-2/README.md)   |
-| `Not Started` | Practice 3   | [README.md](practice-3/README.md)   |
+| Status        | Name           | Description |
+|---------------|----------------|-------------|
+| `Completed`   | Practice 1     | [README.md](practice-1/README.md)   |
+| `In Progress` | Practice 2     | [README.md](practice-2/README.md)   |
+| `Not Started` | Practice 3     | [README.md](practice-3/README.md)   |
+| `Not Started` | Practice 4     | [README.md](practice-4/README.md)   |
+| `Not Started` | Practice 5     | [README.md](practice-5/README.md)   |
+| `Not Started` | Practice 6     | [README.md](practice-6/README.md)   |
+| `Not Started` | Practice 7     | [README.md](practice-7/README.md)   |
+| `Not Started` | Practice 8-9   | [README.md](practice-8-9/README.md)   |
+| `Not Started` | Practice 10-11 | [README.md](practice-10-11/README.md)   |  
