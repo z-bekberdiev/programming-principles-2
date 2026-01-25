@@ -8,7 +8,7 @@
 
 ## :chart_with_upwards_trend: Progress
 > [!NOTE]
-> The table below shows the current status of practical tasks
+> The table below shows the current status of practical tasks  
 | Status        | Name         | Description |
 |---------------|--------------|-------------|
 | `Completed`   | Practice 1   | [README.md](practice-1/README.md)   |
