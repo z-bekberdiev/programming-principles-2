@@ -21,3 +21,8 @@
 | `Not Started` | Practice 7     | [README.md](practice-7/README.md)   |
 | `Not Started` | Practice 8-9   | [README.md](practice-8-9/README.md)   |
 | `Not Started` | Practice 10-11 | [README.md](practice-10-11/README.md)   |  
+
+## :phone: Contact with me
+**Microsoft Outlook**: [Send a mail](mailto:z_bekberdiev@kbtu.kz)  
+**Microsoft Teams**: [Send a message](https://teams.microsoft.com/l/chat/0/0?users=z_bekberdiev@kbtu.kz)  
+**Telegram**: [Start a conversation](https://t.me/z_bekberdiev)  
