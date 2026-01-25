@@ -8,7 +8,7 @@
 
 ## :chart_with_upwards_trend: Progress
 > [!NOTE]
-> The list below shows only current progress of completion practices
+> The list below shows only current state of completion of practical assignments
 - [x] ~~Practice 1~~  
 - [ ] Practice 2  
 - [ ] Practice 3  
