@@ -9,7 +9,7 @@
 ## :chart_with_upwards_trend: Progress
 > [!NOTE]
 > The list below shows only current state of completion of practical assignments
-- [x] ~~Practice 1~~  
+- [x] ~~Practice 1~~ [README.md](practice-1/README.md)  
 - [ ] Practice 2  
 - [ ] Practice 3  
 - [ ] Practice 4  
