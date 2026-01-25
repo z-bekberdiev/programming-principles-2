@@ -1,1 +1,1 @@
-Practice 1
+Practice 1 is used to introduce newcomers to the world of Python and to help intermediate and advanced coders review some basic but important concepts
