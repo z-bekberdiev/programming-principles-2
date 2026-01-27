@@ -8,12 +8,12 @@
 
 ## :chart_with_upwards_trend: Progress
 > [!NOTE]
-> The table below shows the current status of practical tasks:
-> "0" means that the completion of practice is not started yet
+> The table below shows the current status of practical tasks:  
+> "0" means that the completion of practice is not started yet 
 > "1" means that the tasks of practice are already completed  
 
 | Status | Last Commit                      | Deadline                    | Name           | Description                           |
-|--------|----------------------------------|-----------------------------|----------------|---------------------------------------|
+|:------:|----------------------------------|-----------------------------|----------------|---------------------------------------|
 | :one:  | [Jan 25, 2026 at 4:13 PM][1]     | Jan 28, 2026 at 10:00 AM    | Practice 1     | [README.md](practice-1/README.md)     |
 | :one:  | [Jan 27, 2026 at 2:06 PM][2]     | Feb 4, 2026 at 10:00 AM     | Practice 2     | [README.md](practice-2/README.md)     |
 | :zero: | [Jan 1, 1970 at 12:00 AM][3]     | Feb 18, 2026 at 10:00 AM    | Practice 3     | [README.md](practice-3/README.md)     |
