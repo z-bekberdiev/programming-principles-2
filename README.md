@@ -13,7 +13,7 @@
 | Status        | Last Commit                            | Name           | Description                           |
 |---------------|----------------------------------------|----------------|---------------------------------------|
 | `Completed`   | [Jan 25, 2026 at 4:13 PM GMT+5][1]     | Practice 1     | [README.md](practice-1/README.md)     |
-| `In Progress` | [Jan 1, 1970 at 12:00 AM GMT+0][2]     | Practice 2     | [README.md](practice-2/README.md)     |
+| `Completed`   | [Jan 27, 2026 at 2:06 PM GMT+5][2]     | Practice 2     | [README.md](practice-2/README.md)     |
 | `Not Started` | [Jan 1, 1970 at 12:00 AM GMT+0][3]     | Practice 3     | [README.md](practice-3/README.md)     |
 | `Not Started` | [Jan 1, 1970 at 12:00 AM GMT+0][4]     | Practice 4     | [README.md](practice-4/README.md)     |
 | `Not Started` | [Jan 1, 1970 at 12:00 AM GMT+0][5]     | Practice 5     | [README.md](practice-5/README.md)     |
@@ -29,7 +29,7 @@
 
 <!-- Reference-Style Links -->
 [1]: https://github.com/z-bekberdiev/programming-principles-2/commit/8562662
-[2]: https://github.com/z-bekberdiev/programming-principles-2/commit/0000000
+[2]: https://github.com/z-bekberdiev/programming-principles-2/commit/aa6f58a
 [3]: https://github.com/z-bekberdiev/programming-principles-2/commit/0000000
 [4]: https://github.com/z-bekberdiev/programming-principles-2/commit/0000000
 [5]: https://github.com/z-bekberdiev/programming-principles-2/commit/0000000
