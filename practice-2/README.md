@@ -1,0 +1,1 @@
+Practice 2 is used to learn simple terms related to the boolean, conditional constructions, loops and to provide comprehensive understanding of these concepts
