@@ -10,17 +10,17 @@
 > [!NOTE]
 > The table below shows the current status of practical tasks  
 
-| Status        | Last Commit                            | Name           | Description                           |
-|---------------|----------------------------------------|----------------|---------------------------------------|
-| `Completed`   | [Jan 25, 2026 at 4:13 PM GMT+5][1]     | Practice 1     | [README.md](practice-1/README.md)     |
-| `Completed`   | [Jan 27, 2026 at 2:06 PM GMT+5][2]     | Practice 2     | [README.md](practice-2/README.md)     |
-| `Not Started` | [Jan 1, 1970 at 12:00 AM GMT+0][3]     | Practice 3     | [README.md](practice-3/README.md)     |
-| `Not Started` | [Jan 1, 1970 at 12:00 AM GMT+0][4]     | Practice 4     | [README.md](practice-4/README.md)     |
-| `Not Started` | [Jan 1, 1970 at 12:00 AM GMT+0][5]     | Practice 5     | [README.md](practice-5/README.md)     |
-| `Not Started` | [Jan 1, 1970 at 12:00 AM GMT+0][6]     | Practice 6     | [README.md](practice-6/README.md)     |
-| `Not Started` | [Jan 1, 1970 at 12:00 AM GMT+0][7]     | Practice 7     | [README.md](practice-7/README.md)     |
-| `Not Started` | [Jan 1, 1970 at 12:00 AM GMT+0][8-9]   | Practice 8-9   | [README.md](practice-8-9/README.md)   |
-| `Not Started` | [Jan 1, 1970 at 12:00 AM GMT+0][10-11] | Practice 10-11 | [README.md](practice-10-11/README.md) |  
+| Status        | Last Commit                            | Deadline                          | Name           | Description                           |
+|---------------|----------------------------------------|-----------------------------------|----------------|---------------------------------------|
+| `Completed`   | [Jan 25, 2026 at 4:13 PM GMT+5][1]     | Jan 28, 2026 at 10:00 AM          | Practice 1     | [README.md](practice-1/README.md)     |
+| `Completed`   | [Jan 27, 2026 at 2:06 PM GMT+5][2]     | Feb 4, 2026 at 10:00 AM           | Practice 2     | [README.md](practice-2/README.md)     |
+| `Not Started` | [Jan 1, 1970 at 12:00 AM GMT+0][3]     | Feb 18, 2026 at 10:00 AM          | Practice 3     | [README.md](practice-3/README.md)     |
+| `Not Started` | [Jan 1, 1970 at 12:00 AM GMT+0][4]     | Feb 25, 2026 at 10:00 AM          | Practice 4     | [README.md](practice-4/README.md)     |
+| `Not Started` | [Jan 1, 1970 at 12:00 AM GMT+0][5]     | Mar 4, 2026 at 10:00 AM           | Practice 5     | [README.md](practice-5/README.md)     |
+| `Not Started` | [Jan 1, 1970 at 12:00 AM GMT+0][6]     | Mar 18, 2026 at 10:00 AM          | Practice 6     | [README.md](practice-6/README.md)     |
+| `Not Started` | [Jan 1, 1970 at 12:00 AM GMT+0][7]     | Mar 25, 2026 at 10:00 AM          | Practice 7     | [README.md](practice-7/README.md)     |
+| `Not Started` | [Jan 1, 1970 at 12:00 AM GMT+0][8-9]   | Apr 1 - Apr 15, 2026 at 10:00 AM  | Practice 8-9   | [README.md](practice-8-9/README.md)   |
+| `Not Started` | [Jan 1, 1970 at 12:00 AM GMT+0][10-11] | Apr 22 - Apr 29, 2026 at 10:00 AM | Practice 10-11 | [README.md](practice-10-11/README.md) |  
 
 ## :phone: Contact with me
 **Microsoft Outlook**: [Send a mail](mailto:z_bekberdiev@kbtu.kz)  
