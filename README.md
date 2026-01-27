@@ -9,7 +9,7 @@
 ## :chart_with_upwards_trend: Progress
 > [!NOTE]
 > The table below shows the current status of practical tasks:  
-> "0" means that the completion of practice is not started yet 
+> "0" means that the completion of practice is not started yet  
 > "1" means that the tasks of practice are already completed  
 
 | Status | Last Commit                      | Deadline                    | Name           | Description                           |
