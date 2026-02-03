@@ -1,0 +1,1 @@
+Practice 4 is used to learn crucial terms related to the dates, iterators, generators, json, math and random modules, custom modules, scope and to provide comprehensive understanding of these concepts
