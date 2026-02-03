@@ -1,0 +1,48 @@
+{
+  "company": "TechCorp",
+  "established": 2010,
+  "active": true,
+  "headquarters": {
+    "address": "123 Innovation Drive",
+    "city": "Silicon Valley",
+    "state": "CA"
+  },
+  "employees": [
+    {
+      "id": 101,
+      "name": "Alice Johnson",
+      "roles": ["developer", "team-lead"],
+      "contact": {
+        "email": "alice.j@techcorp.com",
+        "phone": {
+          "work": "555-0102",
+          "personal": null
+        }
+      }
+    },
+    {
+      "id": 102,
+      "name": "Bob Smith",
+      "roles": ["designer"],
+      "contact": {
+        "email": "bob.s@techcorp.com",
+        "phone": {
+          "work": "555-0103",
+          "personal": "555-0199"
+        }
+      }
+    }
+  ],
+  "projects": [
+    {
+      "name": "Alpha",
+      "status": "completed",
+      "budget": 50000.50
+    },
+    {
+      "name": "Beta",
+      "status": "in-progress",
+      "budget": 120000.00
+    }
+  ]
+}
