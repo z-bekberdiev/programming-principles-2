@@ -18,7 +18,7 @@
 | :green_book:  | [Jan 25, 2026 at 4:13 PM][1]     | Jan 28, 2026 at 10:00 AM    | Practice 1     | [README.md](practice-1/README.md)     |
 | :green_book:  | [Jan 27, 2026 at 2:06 PM][2]     | Feb 4, 2026 at 10:00 AM     | Practice 2     | [README.md](practice-2/README.md)     |
 | :green_book:  | [Feb 3, 2026 at 9:10 PM][3]      | Feb 18, 2026 at 10:00 AM    | Practice 3     | [README.md](practice-3/README.md)     |
-| :green_book:  | [Feb 3, 2026 at 11:15 PM][4]     | Feb 25, 2026 at 10:00 AM    | Practice 4     | [README.md](practice-4/README.md)     |
+| :green_book:  | [Feb 3, 2026 at 11:39 PM][4]     | Feb 25, 2026 at 10:00 AM    | Practice 4     | [README.md](practice-4/README.md)     |
 | :orange_book: | [Jan 1, 1970 at 12:00 AM][5]     | Mar 4, 2026 at 10:00 AM     | Practice 5     | [README.md](practice-5/README.md)     |
 | :orange_book: | [Jan 1, 1970 at 12:00 AM][6]     | Mar 18, 2026 at 10:00 AM    | Practice 6     | [README.md](practice-6/README.md)     |
 | :closed_book: | [Jan 1, 1970 at 12:00 AM][7]     | Mar 25, 2026 at 10:00 AM    | Practice 7     | [README.md](practice-7/README.md)     |
@@ -34,7 +34,7 @@
 [1]: https://github.com/z-bekberdiev/programming-principles-2/commit/8562662
 [2]: https://github.com/z-bekberdiev/programming-principles-2/commit/aa6f58a
 [3]: https://github.com/z-bekberdiev/programming-principles-2/commit/b222af8
-[4]: https://github.com/z-bekberdiev/programming-principles-2/commit/5c3abe1
+[4]: https://github.com/z-bekberdiev/programming-principles-2/commit/d2b6820
 [5]: https://github.com/z-bekberdiev/programming-principles-2/commit/0000000
 [6]: https://github.com/z-bekberdiev/programming-principles-2/commit/0000000
 [7]: https://github.com/z-bekberdiev/programming-principles-2/commit/0000000
