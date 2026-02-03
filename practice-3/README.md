@@ -1,0 +1,1 @@
+Practice 3 is used to learn advanced terms related to the classes (which are the crucial part of the Object Oriented Programming), functions, lambda, inheritance and to provide comprehensive understanding of these concepts
