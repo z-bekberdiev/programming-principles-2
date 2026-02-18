@@ -8,6 +8,9 @@ def task_1():
     print(f"Current datetime: {current_date.strftime("%d-%m-%Y")}")
     print()
     print(f"Edited datetime: {(current_date - datetime.timedelta(days=5)).strftime("%d-%m-%Y")}")
+    print()
+    sleep(5)
+    main()
 
 
 def task_2():
@@ -17,6 +20,9 @@ def task_2():
     print(f"Today: {current_day.strftime("%d-%m-%Y")}")
     print()
     print(f"Tomorrow: {(current_day + datetime.timedelta(days=1)).strftime("%d-%m-%Y")}")
+    print()
+    sleep(5)
+    main()
 
 
 def task_3():
@@ -24,6 +30,9 @@ def task_3():
     print(f"Datetime with microseconds: {current_date.strftime("%d-%m-%Y %H:%M:%S.%f")}")
     print()
     print(f"Datetime without microseconds: {current_date.strftime("%d-%m-%Y %H:%M:%S")}")
+    print()
+    sleep(5)
+    main()
 
 
 def task_4():
@@ -35,6 +44,9 @@ def task_4():
     print(f"Current datetime: {current_date}")
     print()
     print(f"Difference in seconds: {(current_date - sample_date).total_seconds()}")
+    print()
+    sleep(5)
+    main()
 
 
 def clear():
