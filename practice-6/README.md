@@ -1,0 +1,1 @@
+Practice 6 is used to focus on working with files, directories, and core built-in functions in Python
