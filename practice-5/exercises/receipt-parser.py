@@ -1,44 +1,47 @@
-from os import system, path # type: ignore
-from re import findall, search, Match # type: ignore
+from re import findall
+from pathlib import Path
+from subprocess import run
+
+
+RAW_FILE_PATH = Path(__file__).parent / "raw.txt"
 
 
 class Receipt_Parser:
-    def __init__(self, raw_file_path: str) -> None:
-        self.raw_file_path: str = raw_file_path
+    def __init__(self, raw_file_path: Path) -> None:
+        self.raw_file_path: Path = raw_file_path
 
     def read_raw_file(self) -> None:
-        with open(self.raw_file_path, "r") as raw_file:
+        with open(self.raw_file_path, "r", encoding="utf-8") as raw_file:
             self.raw_file_content: str = "\n".join([raw_file_item.strip("\n").strip() for raw_file_item in raw_file.readlines()])
     
     def extract_product_prices(self) -> None:
-        self.product_prices: list[str] = findall("(?<=Стоимость\\s)(\\d+?\\s?\\d+\\,\\d+)", self.raw_file_content)
+        self.product_prices: list[str] = findall(r"(?<=Стоимость\n)(\d*\s?\d+\,\d+)", self.raw_file_content)
         print(*self.product_prices, sep="\n")
 
     def find_product_names(self) -> None:
-        self.product_names: list[str] = findall(r".+(?=\n\d{1}\,\d{3})", self.raw_file_content)
+        self.product_names: list[str] = findall(r"(?<=\d{1}\.\n).+(?=\n\d+\,\d+)", self.raw_file_content)
         print(*self.product_names, sep="\n")
 
     def calculate_total_amount(self) -> None:
-        self.total_amount: float = sum([float(str(total_amount).replace(",", ".").replace(" ", "")) for total_amount in findall("\\d{1}\\,\\d{3}", self.raw_file_content)])
+        self.total_amount: float = sum([float(str(total_amount).replace(",", ".").replace(" ", "")) for total_amount in findall(r"\d{1}\,\d{3}", self.raw_file_content)])
         print(f"{self.total_amount:.3f}".replace(".", ","))
 
     def extract_date_and_time(self) -> None:
-        self.date_and_time: list[str] = [*findall("(\\d+\\.\\d+\\.\\d+)(\\s)(\\d+\\:\\d+\\:\\d+)", self.raw_file_content)[0]]
-        del self.date_and_time[1]
+        self.date_and_time: list[str] = findall(r"(\d{2}\.\d{2}\.\d{4})\s(\d{2}\:\d{2}\:\d{2})", self.raw_file_content)[0]
         print(f"Дата: {self.date_and_time[0]}")
         print(f"Время: {self.date_and_time[1]}")
 
     def find_payment_method(self) -> None:
-        self.payment_method: Match[str] | None = search(".+(?=\\n(\\d+?\\s?\\d+\\,\\d+)\\nИТОГО)", self.raw_file_content)
-        if self.payment_method:
-            print(self.payment_method.group()[:-1])
+        self.total_price = findall(r"(?<=ИТОГО:\n)(\d*\s?\d+\,\d+)", self.raw_file_content)[0]
+        self.payment_method: list[str] = findall(f".+(?=\n{self.total_price})", self.raw_file_content)[0]
+        print(self.payment_method.strip(":"))
 
 
 if __name__ == "__main__":
-    system("clear") # type: ignore
+    run("clear")
     print("\n")
-    system("clear") # type: ignore
-    receipt_parser: Receipt_Parser = Receipt_Parser(f"{path.dirname(__file__)}/raw.txt")
+    run("clear")
+    receipt_parser: Receipt_Parser = Receipt_Parser(RAW_FILE_PATH)
     receipt_parser.read_raw_file()
     print("\033[1;4mAll product prices that are available in the receipt:\033[0m")
     receipt_parser.extract_product_prices()
