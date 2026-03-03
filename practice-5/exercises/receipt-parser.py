@@ -3,7 +3,7 @@ from pathlib import Path
 from subprocess import run
 
 
-RAW_FILE_PATH = Path(__file__).parent / "raw.txt"
+RAW_FILE_PATH: Path = Path(__file__).parent / "raw.txt"
 
 
 class Receipt_Parser:
@@ -32,7 +32,7 @@ class Receipt_Parser:
         print(f"Время: {self.date_and_time[1]}")
 
     def find_payment_method(self) -> None:
-        self.total_price = findall(r"(?<=ИТОГО:\n)(\d*\s?\d+\,\d+)", self.raw_file_content)[0]
+        self.total_price: str = findall(r"(?<=ИТОГО:\n)(\d*\s?\d+\,\d+)", self.raw_file_content)[0]
         self.payment_method: list[str] = findall(f".+(?=\n{self.total_price})", self.raw_file_content)[0]
         print(self.payment_method.strip(":"))
 
