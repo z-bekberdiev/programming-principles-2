@@ -1,0 +1,1 @@
+Practice 7-8 is used to create "PhoneBook" application powered by "PostgreSQL" database
