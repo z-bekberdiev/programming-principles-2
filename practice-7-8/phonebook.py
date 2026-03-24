@@ -131,7 +131,7 @@ class PhoneBook:
             self.clear_terminal()
             count = abs(int(input("=== ENTER THE NUMBER OF RECORDS ===\n\n>> ").strip()))
             if count == 0:
-                count += 1
+                raise Exception
             data = []
             fileds = {1: "first name", 2: "last name", 3: "number", 4: "address"}
             for index in range(count):
