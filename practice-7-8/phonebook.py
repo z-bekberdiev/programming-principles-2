@@ -28,15 +28,13 @@ class PhoneBook:
             match option:
                 case 1:
                     self.clear_terminal()
-                    print("=== WELCOME TO THE \"PHONEBOOK\" ===")
-                    mode = abs(int(input("\n\033[1;4mCHOOSE ONE OF THE GIVEN OPTIONS:\033[0m\n\n1 - AUTOMATICALLY FROM '.CSV' FILE\n2 - MANUALLY VIA TERMINAL\n3 - EXIT\n\n>> ").strip()))
+                    print("=== CREATE ===")
+                    mode = abs(int(input("\n\033[1;4mCHOOSE ONE OF THE GIVEN OPTIONS:\033[0m\n\n1 - AUTOMATICALLY FROM '.CSV' FILE\n2 - MANUALLY VIA TERMINAL\n\n>> ").strip()))
                     match mode:
                         case 1:
                             self.create_query("create", self.parse_csv())
                         case 2:
                             self.create_query("create", self.parse_input("create"))
-                        case 3:
-                            sys.exit(1)
                         case _:
                             raise Exception
                 case 2:
@@ -150,7 +148,8 @@ class PhoneBook:
                         with_filter = bool(abs(int(input("=== ENTER 0 (WITHOUT FILTER) OR 1 (WITH FILTER) ===\n\n>> ").strip())))
                         if with_filter:
                             self.clear_terminal()
-                            option = abs(int(input(f"\033[1;4mCHOOSE ONE OF THE GIVEN OPTIONS:\033[0m\n\n1 - FIRST NAME\n2 - LAST NAME\n3 - NUMBER\n4 - ADDRESS\n\n>> ").strip()))
+                            print("=== READ ===")
+                            option = abs(int(input(f"\n\033[1;4mCHOOSE ONE OF THE GIVEN OPTIONS:\033[0m\n\n1 - FIRST NAME\n2 - LAST NAME\n3 - NUMBER\n4 - ADDRESS\n\n>> ").strip()))
                             if option > 0 and option < 5:
                                 search_column = fileds[option].replace(" ", "")
                             self.clear_terminal()
@@ -169,7 +168,8 @@ class PhoneBook:
                     case "update":
                         number = input(f"=== ENTER THE #{index + 1} CONTACT'S NUMBER ===\n\n>> ").strip()
                         self.clear_terminal()
-                        option = abs(int(input(f"\033[1;4mCHOOSE ONE OF THE GIVEN OPTIONS:\033[0m\n\n1 - FIRST NAME\n2 - LAST NAME\n3 - NUMBER\n4 - ADDRESS\n\n>> ").strip()))
+                        print("=== UPDATE ===")
+                        option = abs(int(input(f"\n\033[1;4mCHOOSE ONE OF THE GIVEN OPTIONS:\033[0m\n\n1 - FIRST NAME\n2 - LAST NAME\n3 - NUMBER\n4 - ADDRESS\n\n>> ").strip()))
                         if option > 0 and option < 5:
                             self.clear_terminal()
                             information = input(f"=== ENTER THE #{index + 1} CONTACT'S NEW {fileds[option].upper()} ===\n\n>> ").strip()
@@ -182,7 +182,10 @@ class PhoneBook:
                             data.append(number)
                         else:
                             continue
-            return data
+            if data:
+                return data
+            else:
+                raise Exception
         except (ValueError, Exception):
             self.handle_result("failure", "inappropriate input")
             self.main_page()
