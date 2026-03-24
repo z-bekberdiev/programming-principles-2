@@ -96,7 +96,7 @@ class PhoneBook:
                         print("│" + f"{"\033[1mFirst Name\033[0m":^41}" + "│" + f"{"\033[1mLast Name\033[0m":^41}" + "│" + f"{"\033[1mNumber\033[0m":^41}" + "│" + f"{"\033[1mAddress\033[0m":^41}" + "│")
                         print("├" + "─" * 33 + "┼" + "─" * 33 + "┼" + "─" * 33 + "┼" + "─" * 33 + "┤")
                         for items in result:
-                            item = items[0].strip().replace("(", "").replace(")", "").replace('"', '').split(",")
+                            item = items[0][1:(len(items[0])-1)].strip().replace('"', '').split(",")
                             print("│ " + f"{item[0]:<31}" + " │ " f"{item[1]:<31}" + " │ " + f"{item[2]:<31}" + " │ " f"{item[3]:<31}" + " │")
                             if result.index(items) != len(result) - 1:
                                 print("├" + "─" * 33 + "┼" + "─" * 33 + "┼" + "─" * 33 + "┼" + "─" * 33 + "┤")
