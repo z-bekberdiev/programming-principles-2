@@ -10,29 +10,29 @@ BEGIN
     IF (with_filter) THEN
         IF (with_pagination) THEN
             IF (with_reverse) THEN      
-                RETURN QUERY EXECUTE format('SELECT * FROM phonebook WHERE %I LIKE %L ORDER BY firstname, lastname DESC LIMIT %L OFFSET %L;', search_column, search_pattern, page_size, vertical_offset);
+                RETURN QUERY EXECUTE format('SELECT * FROM phonebook WHERE %I LIKE %L ORDER BY firstname DESC, lastname DESC LIMIT %L OFFSET %L;', search_column, search_pattern, page_size, vertical_offset);
             ELSE
-                RETURN QUERY EXECUTE format('SELECT * FROM phonebook WHERE %I LIKE %L ORDER BY firstname, lastname ASC LIMIT %L OFFSET %L;', search_column, search_pattern, page_size, vertical_offset);
+                RETURN QUERY EXECUTE format('SELECT * FROM phonebook WHERE %I LIKE %L ORDER BY firstname ASC, lastname ASC LIMIT %L OFFSET %L;', search_column, search_pattern, page_size, vertical_offset);
             END IF;
         ELSE
             IF (with_reverse) THEN
-                RETURN QUERY EXECUTE format('SELECT * FROM phonebook WHERE %I LIKE %L ORDER BY firstname, lastname DESC;', search_column, search_pattern);
+                RETURN QUERY EXECUTE format('SELECT * FROM phonebook WHERE %I LIKE %L ORDER BY firstname DESC, lastname DESC;', search_column, search_pattern);
             ELSE
-                RETURN QUERY EXECUTE format('SELECT * FROM phonebook WHERE %I LIKE %L ORDER BY firstname, lastname ASC;', search_column, search_pattern);
+                RETURN QUERY EXECUTE format('SELECT * FROM phonebook WHERE %I LIKE %L ORDER BY firstname ASC, lastname ASC;', search_column, search_pattern);
             END IF;
         END IF;
     ELSE
         IF (with_pagination) THEN
             IF (with_reverse) THEN      
-                RETURN QUERY SELECT * FROM phonebook ORDER BY firstname, lastname DESC LIMIT page_size OFFSET vertical_offset;
+                RETURN QUERY SELECT * FROM phonebook ORDER BY firstname DESC, lastname DESC LIMIT page_size OFFSET vertical_offset;
             ELSE
-                RETURN QUERY SELECT * FROM phonebook ORDER BY firstname, lastname ASC LIMIT page_size OFFSET vertical_offset;
+                RETURN QUERY SELECT * FROM phonebook ORDER BY firstname ASC, lastname ASC LIMIT page_size OFFSET vertical_offset;
             END IF;
         ELSE
             IF (with_reverse) THEN
-                RETURN QUERY SELECT * FROM phonebook ORDER BY firstname, lastname DESC;
+                RETURN QUERY SELECT * FROM phonebook ORDER BY firstname DESC, lastname DESC;
             ELSE
-                RETURN QUERY SELECT * FROM phonebook ORDER BY firstname, lastname ASC;
+                RETURN QUERY SELECT * FROM phonebook ORDER BY firstname ASC, lastname ASC;
             END IF;
         END IF;
     END IF;
