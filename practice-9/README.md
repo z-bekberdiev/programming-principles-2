@@ -1,0 +1,1 @@
+Practice 9 introduces game development using PyGame to learn graphics, input handling and animations by creating three classic games
