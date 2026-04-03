@@ -136,7 +136,7 @@ def start_application() -> None:
             pos_sec = pos_ms // 1000
         else:
             pos_sec = 0
-        progress_text = small_font.render(f"Playback: {f"{pos_sec} sec" if pos_sec < 60 else f"{pos_sec / 60} min" if pos_sec % 60 == 0 else f"{pos_sec // 60} min {pos_sec - (pos_sec // 60) * 60} sec"}", True, (0, 0, 0))
+        progress_text = small_font.render(f"Playback: {f"{pos_sec} sec" if pos_sec < 60 else f"{pos_sec // 60} min" if pos_sec % 60 == 0 else f"{pos_sec // 60} min {pos_sec - (pos_sec // 60) * 60} sec"}", True, (0, 0, 0))
         screen.blit(progress_text, (50, 230))
         controls = [
             "P - Play current",
