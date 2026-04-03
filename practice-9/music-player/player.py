@@ -1,6 +1,8 @@
 import pygame
 import sys
 import pathlib
+import tinytag
+import io
 
 def start_application() -> None:
     pygame.init()
@@ -19,6 +21,14 @@ def start_application() -> None:
     playing = False
     paused = False
     pygame.mixer.music.set_endevent(pygame.USEREVENT)
+
+    def get_cover_art(file_path):
+        tag = tinytag.TinyTag.get(file_path, image=True)
+        image_data = tag.images.any.data
+        if image_data:
+            image_stream = io.BytesIO(image_data)
+            return pygame.transform.scale(pygame.image.load(image_stream), (350, 350))
+        return None
 
     def load_current():
         try:
@@ -111,17 +121,22 @@ def start_application() -> None:
             track_name = "Empty Author - Empty Track.mp3"
         text = big_font.render(f"Track: {track_name.replace(".mp3", "")}", True, (0, 0, 0))
         screen.blit(text, (50, 80))
+        cover = get_cover_art(playlist[current_index] if playlist else path / "Empty Author - Empty Track.mp3")
+        cover_rect = cover.get_rect()
+        cover_rect.topleft = (width - 400, 140)
+        screen.blit(cover, cover_rect)
+        pygame.draw.rect(screen, (0, 0, 0), cover_rect, 3)
         status = "Playing" if playing else "Paused"
         status_text = small_font.render(f"Status: {status}", True, (0, 0, 0))
         screen.blit(status_text, (50, 130))
-        index_text = small_font.render(f"Index: {current_index + 1 if playlist else 0}/{len(playlist) if playlist else 0}", True, (0, 0, 0))
+        index_text = small_font.render(f"Position: {current_index + 1 if playlist else 0}/{len(playlist) if playlist else 0}", True, (0, 0, 0))
         screen.blit(index_text, (50, 180))
         if playing or paused:
             pos_ms = pygame.mixer.music.get_pos()
             pos_sec = pos_ms // 1000
         else:
             pos_sec = 0
-        progress_text = small_font.render(f"Position: {pos_sec} sec", True, (0, 0, 0))
+        progress_text = small_font.render(f"Playback: {f"{pos_sec} sec" if pos_sec < 60 else f"{pos_sec / 60} min" if pos_sec % 60 == 0 else f"{pos_sec // 60} min {pos_sec - (pos_sec // 60) * 60} sec"}", True, (0, 0, 0))
         screen.blit(progress_text, (50, 230))
         controls = [
             "P - Play current",
