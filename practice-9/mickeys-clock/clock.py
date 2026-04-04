@@ -11,7 +11,8 @@ def start_application() -> None:
     pygame.display.set_caption("Mickey's Clock")
     clock = pygame.time.Clock()
     mickey = pygame.transform.scale(pygame.image.load(f'{Path(__file__).parent}/images/dial.jpg').convert_alpha(), (600, 600))
-    hand = pygame.transform.scale(pygame.image.load(f'{Path(__file__).parent}/images/hand.png').convert_alpha(), (500, 500))
+    left_hand = pygame.transform.scale(pygame.image.load(f'{Path(__file__).parent}/images/left-hand.png').convert_alpha(), (230, 500))
+    right_hand = pygame.transform.scale(pygame.image.load(f'{Path(__file__).parent}/images/right-hand.png').convert_alpha(), (230, 500))
     center = (width // 2, height // 2)
 
     def rotate_hand(image, angle):
@@ -29,8 +30,8 @@ def start_application() -> None:
         seconds = now.second
         minute_angle = -(minutes / 60) * 360
         second_angle = -(seconds / 60) * 360
-        rotated_minute, minute_rect = rotate_hand(hand, minute_angle)
-        rotated_second, second_rect = rotate_hand(hand, second_angle)
+        rotated_minute, minute_rect = rotate_hand(left_hand, minute_angle)
+        rotated_second, second_rect = rotate_hand(right_hand, second_angle)
         screen.fill((255, 255, 255))
         mickey_rect = mickey.get_rect(center=center)
         screen.blit(mickey, mickey_rect)
