@@ -23,7 +23,10 @@
 | :green_book:  | [Mar 2, 2026 at 10:56 PM][6]     | Mar 18, 2026 at 10:00 AM          | Practice 6     | [README.md](practice-6/README.md)     |
 | :green_book:  | [Mar 24, 2026 at 2:25 PM][7-8]   | Mar 25 - Apr 1, 2026 at 10:00 AM  | Practice 7-8   | [README.md](practice-7-8/README.md)   |
 | :green_book:  | [Apr 4, 2026 at 12:29 PM][9]     | Apr 15, 2026 at 10:00 AM          | Practice 9     | [README.md](practice-9/README.md)     |
-| :orange_book: | [Jan 1, 1970 at 12:00 AM][10-11] | Apr 22 - Apr 29, 2026 at 10:00 AM | Practice 10-11 | [README.md](practice-10-11/README.md) |  
+| :green_book:  | [Apr 17, 2026 at 1:15 AM][10-11] | Apr 22 - Apr 29, 2026 at 10:00 AM | Practice 10-11 | [README.md](practice-10-11/README.md) |
+| :orange_book: | [N/A][tsis-1]                    | N/A                               | TSIS 1         | [README.md](tsis-1/README.md)         |
+| :orange_book: | [N/A][tsis-2]                    | N/A                               | TSIS 2         | [README.md](tsis-2/README.md)         |
+| :orange_book: | [N/A][tsis-3]                    | N/A                               | TSIS 3         | [README.md](tsis-3/README.md)         |  
 
 ## :phone: Contact with me
 **Microsoft Outlook**: [Send a mail](mailto:z_bekberdiev@kbtu.kz)  
@@ -39,4 +42,7 @@
 [6]: https://github.com/z-bekberdiev/programming-principles-2/commit/5627d42
 [7-8]: https://github.com/z-bekberdiev/programming-principles-2/commit/5ffe9ce
 [9]: https://github.com/z-bekberdiev/programming-principles-2/commit/0cd8e21
-[10-11]: https://github.com/z-bekberdiev/programming-principles-2/commit/0000000
+[10-11]: https://github.com/z-bekberdiev/programming-principles-2/commit/121e04c
+[tsis-1]: https://github.com/z-bekberdiev/programming-principles-2/commit/0000000
+[tsis-2]: https://github.com/z-bekberdiev/programming-principles-2/commit/0000000
+[tsis-3]: https://github.com/z-bekberdiev/programming-principles-2/commit/0000000
