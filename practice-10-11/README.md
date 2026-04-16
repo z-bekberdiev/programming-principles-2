@@ -1,0 +1,1 @@
+Practice 10-11 allows students to create multiple interesting games and applications using PyGame
