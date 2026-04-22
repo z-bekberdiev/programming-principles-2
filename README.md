@@ -26,7 +26,8 @@
 | :green_book:  | [Apr 17, 2026 at 1:15 AM][10-11] | Apr 22 - Apr 29, 2026 at 10:00 AM | Practice 10-11 | [README.md](practice-10-11/README.md) |
 | :closed_book: | [N / A][tsis-1]                  | N / A                             | TSIS 1         | [README.md](tsis-1/README.md)         |
 | :closed_book: | [N / A][tsis-2]                  | N / A                             | TSIS 2         | [README.md](tsis-2/README.md)         |
-| :closed_book: | [N / A][tsis-3]                  | N / A                             | TSIS 3         | [README.md](tsis-3/README.md)         |  
+| :closed_book: | [N / A][tsis-3]                  | N / A                             | TSIS 3         | [README.md](tsis-3/README.md)         |
+| :closed_book: | [N / A][tsis-4]                  | N / A                             | TSIS 4         | [README.md](tsis-4/README.md)         |  
 
 ## :phone: Contact with me
 **Microsoft Outlook**: [Send a mail](mailto:z_bekberdiev@kbtu.kz)  
@@ -46,3 +47,4 @@
 [tsis-1]: https://github.com/z-bekberdiev/programming-principles-2/commit/0000000
 [tsis-2]: https://github.com/z-bekberdiev/programming-principles-2/commit/0000000
 [tsis-3]: https://github.com/z-bekberdiev/programming-principles-2/commit/0000000
+[tsis-4]: https://github.com/z-bekberdiev/programming-principles-2/commit/0000000
