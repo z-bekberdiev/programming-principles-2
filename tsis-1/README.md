@@ -22,29 +22,29 @@ The goal is to extend the "PhoneBook" application from Practice 7-8 with an enri
 
 ## 3. Tasks
 
-### 3.1 Extended Contact Management
+### 3.1. Extended Contact Management
 
 Update the database schema to support richer contact data:
 
 1. **Multiple phone numbers per contact** — create a separate `phones` table with a foreign key to `contacts` (one-to-many). Each phone has a type: `home`, `work` or `mobile`.
-2. **Email address** — add an `email` field to the `contacts` table.
+2. **Email** — add an `email` field to the `contacts` table.
 3. **Birthday** — add a `birthday` field of a type `DATE` to the `contacts` table.
-4. **Contact group/category** — create a `groups` table (`family`, `work`, `friend` or `other`) and link each contact to a group using a foreign key.
+4. **Group** — create a `groups` table (`family`, `work`, `friend` or `other`) and link each contact to a group using a foreign key.
 
 ---
 
-### 3.2 Advanced Terminal Search & Filter
+### 3.2. Advanced Terminal Search & Filter
 
 Extend the terminal interface to support:
 
 1. **Filter by group** — show only contacts belonging to a selected category.
 2. **Search by email** — implement a partial match.
-3. **Sort results** — allow the user to sort the output by name, birthday or date added.
+3. **Sorted result** — allow the user to sort the output by name, birthday or date added.
 4. **Paginated navigation** — build a terminal loop that lets the user navigate pages with `previous`, `next` and `quit`.
 
 ---
 
-### 3.3 Import / Export
+### 3.3. Import / Export
 
 1. **Export to JSON** — write all contacts (including phones and groups) to a `JSON` file.
 2. **Import from JSON** — read contacts from a `JSON` file and insert them into the DB. On duplicate (same name), ask the user to skip or overwrite.
@@ -52,7 +52,7 @@ Extend the terminal interface to support:
 
 ---
 
-### 3.4 New Stored Procedures (PL/pgSQL)
+### 3.4. New Stored Procedures (PL/pgSQL)
 
 Add the following server-side objects:
 
@@ -62,19 +62,19 @@ Add the following server-side objects:
 
 ---
 
-### 3.5 Save to GitHub
+### 3.5. Save to GitHub
 
 Example repository structure:
 
 ```
 tsis-1/
+├── README.md
 ├── phonebook.py
-├── frontend.py
-├── backend.py
-├── credentials.ini
-├── schema.sql
-├── functions.sql
-├── procedures.sql
-├── contacts.csv
-└── README.md
+└── assets/
+    ├── credentials.ini
+    ├── contacts.csv
+    ├── contacts.json
+    ├── schemas.sql
+    ├── functions.sql
+    └── procedures.sql
 ```
