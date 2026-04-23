@@ -68,8 +68,7 @@ Example repository structure:
 tsis-2/
 ├── README.md
 ├── paint.py
+├── tools.py
 └── assets/
-    ├── tools.py
-    └── images/
-        └── (room for used icons and saved canvas)
+    └── (room for used icons and saved canvas)
 ```

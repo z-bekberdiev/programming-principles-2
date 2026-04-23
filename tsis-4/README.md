@@ -71,7 +71,7 @@ Starting from **Level 3**, static wall blocks appear inside the arena:
 
 ---
 
-### 3.5. Settings (JSON file)
+### 3.5. Settings
 
 Save and load user preferences from a local `settings.json` file using Python's built-in `json` module:
 
@@ -107,5 +107,5 @@ tsis-4/
 ├── config.py
 └── assets/
     ├── settings.json
-    └── (room for used sounds)
+    └── (room for used images and sounds)
 ```
