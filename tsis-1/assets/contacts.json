@@ -1,0 +1,302 @@
+[
+    {
+        "contact_name": "Aaron Paul",
+        "contact_email": "aaron.paul@example.com",
+        "contact_birthday": "1979-08-27",
+        "contact_phones": [
+            {
+                "phone_type": "Mobile",
+                "phone_number": "+14155556789"
+            },
+            {
+                "phone_type": "Work",
+                "phone_number": "+14155550123"
+            }
+        ],
+        "group_name": "Family"
+    },
+    {
+        "contact_name": "Bella Smith",
+        "contact_email": "bella.smith@example.com",
+        "contact_birthday": "1985-03-12",
+        "contact_phones": [
+            {
+                "phone_type": "Home",
+                "phone_number": "+14155551234"
+            },
+            {
+                "phone_type": "Mobile",
+                "phone_number": "+14155552345"
+            }
+        ],
+        "group_name": "Friends"
+    },
+    {
+        "contact_name": "Carlos Mendes",
+        "contact_email": "carlos.mendes@example.com",
+        "contact_birthday": "1990-11-05",
+        "contact_phones": [
+            {
+                "phone_type": "Work",
+                "phone_number": "+14155553456"
+            },
+            {
+                "phone_type": "Home",
+                "phone_number": "+14155554567"
+            },
+            {
+                "phone_type": "Mobile",
+                "phone_number": "+14155555678"
+            }
+        ],
+        "group_name": "Colleagues"
+    },
+    {
+        "contact_name": "Diana Liu",
+        "contact_email": "diana.liu@example.com",
+        "contact_birthday": "1992-07-21",
+        "contact_phones": [
+            {
+                "phone_type": "Mobile",
+                "phone_number": "+14155556790"
+            }
+        ],
+        "group_name": "Friends"
+    },
+    {
+        "contact_name": "Ethan Brown",
+        "contact_email": "ethan.brown@example.com",
+        "contact_birthday": "1988-05-14",
+        "contact_phones": [
+            {
+                "phone_type": "Home",
+                "phone_number": "+14155557890"
+            },
+            {
+                "phone_type": "Work",
+                "phone_number": "+14155558901"
+            }
+        ],
+        "group_name": "Family"
+    },
+    {
+        "contact_name": "Fiona Green",
+        "contact_email": "fiona.green@example.com",
+        "contact_birthday": "1995-12-30",
+        "contact_phones": [
+            {
+                "phone_type": "Mobile",
+                "phone_number": "+14155559012"
+            },
+            {
+                "phone_type": "Home",
+                "phone_number": "+14155550134"
+            }
+        ],
+        "group_name": "Colleagues"
+    },
+    {
+        "contact_name": "George White",
+        "contact_email": "george.white@example.com",
+        "contact_birthday": "1982-09-08",
+        "contact_phones": [
+            {
+                "phone_type": "Work",
+                "phone_number": "+14155551245"
+            }
+        ],
+        "group_name": "Friends"
+    },
+    {
+        "contact_name": "Hannah Black",
+        "contact_email": "hannah.black@example.com",
+        "contact_birthday": "1993-01-17",
+        "contact_phones": [
+            {
+                "phone_type": "Mobile",
+                "phone_number": "+14155552356"
+            },
+            {
+                "phone_type": "Home",
+                "phone_number": "+14155553467"
+            }
+        ],
+        "group_name": "Family"
+    },
+    {
+        "contact_name": "Ian Clark",
+        "contact_email": "ian.clark@example.com",
+        "contact_birthday": "1987-06-22",
+        "contact_phones": [
+            {
+                "phone_type": "Work",
+                "phone_number": "+14155554578"
+            },
+            {
+                "phone_type": "Mobile",
+                "phone_number": "+14155555689"
+            }
+        ],
+        "group_name": "Colleagues"
+    },
+    {
+        "contact_name": "Julia Adams",
+        "contact_email": "julia.adams@example.com",
+        "contact_birthday": "1991-04-11",
+        "contact_phones": [
+            {
+                "phone_type": "Mobile",
+                "phone_number": "+14155556791"
+            }
+        ],
+        "group_name": "Friends"
+    },
+    {
+        "contact_name": "Kevin Taylor",
+        "contact_email": "kevin.taylor@example.com",
+        "contact_birthday": "1984-08-03",
+        "contact_phones": [
+            {
+                "phone_type": "Home",
+                "phone_number": "+14155557892"
+            },
+            {
+                "phone_type": "Mobile",
+                "phone_number": "+14155558903"
+            }
+        ],
+        "group_name": "Family"
+    },
+    {
+        "contact_name": "Laura Hall",
+        "contact_email": "laura.hall@example.com",
+        "contact_birthday": "1996-10-19",
+        "contact_phones": [
+            {
+                "phone_type": "Work",
+                "phone_number": "+14155559014"
+            }
+        ],
+        "group_name": "Friends"
+    },
+    {
+        "contact_name": "Michael King",
+        "contact_email": "michael.king@example.com",
+        "contact_birthday": "1980-02-28",
+        "contact_phones": [
+            {
+                "phone_type": "Mobile",
+                "phone_number": "+14155550125"
+            },
+            {
+                "phone_type": "Work",
+                "phone_number": "+14155551236"
+            }
+        ],
+        "group_name": "Colleagues"
+    },
+    {
+        "contact_name": "Natalie Scott",
+        "contact_email": "natalie.scott@example.com",
+        "contact_birthday": "1994-07-07",
+        "contact_phones": [
+            {
+                "phone_type": "Home",
+                "phone_number": "+14155552347"
+            }
+        ],
+        "group_name": "Family"
+    },
+    {
+        "contact_name": "Oscar Ramirez",
+        "contact_email": "oscar.ramirez@example.com",
+        "contact_birthday": "1989-03-15",
+        "contact_phones": [
+            {
+                "phone_type": "Mobile",
+                "phone_number": "+14155553468"
+            },
+            {
+                "phone_type": "Work",
+                "phone_number": "+14155554579"
+            }
+        ],
+        "group_name": "Friends"
+    },
+    {
+        "contact_name": "Paula Martinez",
+        "contact_email": "paula.martinez@example.com",
+        "contact_birthday": "1997-11-29",
+        "contact_phones": [
+            {
+                "phone_type": "Mobile",
+                "phone_number": "+14155555680"
+            }
+        ],
+        "group_name": "Colleagues"
+    },
+    {
+        "contact_name": "Quentin Hall",
+        "contact_email": "quentin.hall@example.com",
+        "contact_birthday": "1983-05-06",
+        "contact_phones": [
+            {
+                "phone_type": "Work",
+                "phone_number": "+14155556792"
+            },
+            {
+                "phone_type": "Home",
+                "phone_number": "+14155557893"
+            }
+        ],
+        "group_name": "Family"
+    },
+    {
+        "contact_name": "Rachel Evans",
+        "contact_email": "rachel.evans@example.com",
+        "contact_birthday": "1992-09-25",
+        "contact_phones": [
+            {
+                "phone_type": "Mobile",
+                "phone_number": "+14155558904"
+            }
+        ],
+        "group_name": "Friends"
+    },
+    {
+        "contact_name": "Steven Lewis",
+        "contact_email": "steven.lewis@example.com",
+        "contact_birthday": "1986-12-13",
+        "contact_phones": [
+            {
+                "phone_type": "Work",
+                "phone_number": "+14155559015"
+            },
+            {
+                "phone_type": "Mobile",
+                "phone_number": "+14155550126"
+            }
+        ],
+        "group_name": "Colleagues"
+    },
+    {
+        "contact_name": "Tina Perez",
+        "contact_email": "tina.perez@example.com",
+        "contact_birthday": "1990-06-18",
+        "contact_phones": [
+            {
+                "phone_type": "Home",
+                "phone_number": "+14155551237"
+            },
+            {
+                "phone_type": "Mobile",
+                "phone_number": "+14155552348"
+            },
+            {
+                "phone_type": "Work",
+                "phone_number": "+14155553469"
+            }
+        ],
+        "group_name": "Friends"
+    }
+]

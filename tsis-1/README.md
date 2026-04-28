@@ -27,8 +27,8 @@ The goal is to extend the "PhoneBook" application from Practice 7-8 with an enri
 Update the database schema to support richer contact data:
 
 1. **Multiple phone numbers per contact** — create a separate `phones` table with a foreign key to `contacts` (one-to-many). Each phone has a `phone_type`: `Home`, `Work` or `Mobile`.
-2. **Email** — add an `email_address` field to the `contacts` table.
-3. **Birthday** — add a `birthday_date` field of a type `DATE` to the `contacts` table.
+2. **Email** — add an `contact_email` field to the `contacts` table.
+3. **Birthday** — add a `contact_birthday` field of a type `DATE` to the `contacts` table.
 4. **Group** — create a `groups` table (`Family`, `Colleagues`, `Friends` or `Other`) and link each contact to a `group_name` using a foreign key.
 
 ---
@@ -48,7 +48,7 @@ Extend the terminal interface to support:
 
 1. **Export to JSON** — write all contacts (including phones and groups) to a `JSON` file.
 2. **Import from JSON** — read contacts from a `JSON` file and insert them into the DB. On duplicate (same name), ask the user to skip or overwrite.
-3. **Extend CSV import** — update the existing CSV importer to handle the new fields (`phone_type`, `email_address`, `birthday_date` and `group_name`).
+3. **Extend CSV import** — update the existing CSV importer to handle the new fields (`phone_type`, `contact_email`, `contact_birthday` and `group_name`).
 
 ---
 
@@ -56,9 +56,9 @@ Extend the terminal interface to support:
 
 Add the following server-side objects:
 
-1. **Procedure** `attach_phone_to_contact(contact_id VARCHAR, phone_number VARCHAR, phone_type VARCHAR)` — adds a new phone number to an existing contact.
-2. **Procedure** `relocate_contact_to_group(contact_id VARCHAR, group_name VARCHAR)` — moves a contact to a different group, otherwise creates the new group.
-3. **Function** `search_contact(search_pattern VARCHAR, search_column VARCHAR)` — extends the pattern-based search to match against `email_address` and all `phone_number` / `phone_type` in the `phones` table, since the schema now has multiple phones in the separate table.
+1. **Procedure** `add_phone_to_contact(temp_contact_id VARCHAR, temp_phone_number VARCHAR, temp_phone_type VARCHAR)` — adds a new phone number to an existing contact.
+2. **Procedure** `move_contact_to_group(temp_contact_id VARCHAR, temp_group_name VARCHAR)` — moves a contact to a different group, otherwise creates the new group.
+3. **Function** `search_contact(search_pattern VARCHAR, search_column VARCHAR)` — extends the pattern-based search to match against `contact_email` and all `phone_number` / `phone_type` in the `phones` table, since the schema now has multiple phones in the separate table.
 
 ---
 
