@@ -26,8 +26,8 @@
 | :green_book:  | [Apr 17, 2026 at 1:15 AM][10-11]  | Apr 22 - Apr 29, 2026 at 10:00 AM | Practice 10-11 | [README.md](practice-10-11/README.md) |
 | :green_book:  | [Apr 28, 2026 at 2:03 PM][tsis-1] | Apr 29, 2026 at 8:00 AM           | TSIS 1         | [README.md](tsis-1/README.md)         |
 | :green_book:  | [Apr 28, 2026 at 2:41 PM][tsis-2] | Apr 29, 2026 at 8:00 AM           | TSIS 2         | [README.md](tsis-2/README.md)         |
-| :green_book:  | [Apr 28, 2026 at 3:17 PM][tsis-3] | Apr 29, 2026 at 8:00 AM           | TSIS 3         | [README.md](tsis-3/README.md)         |
-| :green_book:  | [Apr 28, 2026 at 4:00 PM][tsis-4] | Apr 29, 2026 at 8:00 AM           | TSIS 4         | [README.md](tsis-4/README.md)         |  
+| :green_book:  | [Apr 28, 2026 at 4:40 PM][tsis-3] | Apr 29, 2026 at 8:00 AM           | TSIS 3         | [README.md](tsis-3/README.md)         |
+| :green_book:  | [Apr 28, 2026 at 4:39 PM][tsis-4] | Apr 29, 2026 at 8:00 AM           | TSIS 4         | [README.md](tsis-4/README.md)         |  
 
 ## :phone: Contact with me
 **Microsoft Outlook**: [Send a mail](mailto:z_bekberdiev@kbtu.kz)  
@@ -46,5 +46,5 @@
 [10-11]: https://github.com/z-bekberdiev/programming-principles-2/commit/121e04c
 [tsis-1]: https://github.com/z-bekberdiev/programming-principles-2/commit/c2d2156
 [tsis-2]: https://github.com/z-bekberdiev/programming-principles-2/commit/cd9b076
-[tsis-3]: https://github.com/z-bekberdiev/programming-principles-2/commit/2d591e4
-[tsis-4]: https://github.com/z-bekberdiev/programming-principles-2/commit/10ecb19
+[tsis-3]: https://github.com/z-bekberdiev/programming-principles-2/commit/1be8ea4
+[tsis-4]: https://github.com/z-bekberdiev/programming-principles-2/commit/002adc8
