@@ -70,5 +70,5 @@ tsis-2/
 ├── paint.py
 ├── tools.py
 └── assets/
-    └── (room for used icons and saved canvas)
+    └── (room for saved canvas)
 ```
