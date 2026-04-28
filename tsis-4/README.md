@@ -106,6 +106,5 @@ tsis-4/
 ├── db.py
 ├── config.py
 └── assets/
-    ├── settings.json
-    └── (room for used images and sounds)
+    └── settings.json
 ```
