@@ -2,8 +2,8 @@
     "sound": true,
     "difficulty": "Normal",
     "car_color": [
-        255,
-        255,
+        0,
+        0,
         255
     ]
 }
