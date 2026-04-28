@@ -4,7 +4,7 @@ import sys
 import json
 import pathlib
 from config import *
-from db import save_score, top_scores, personal_best
+from db import ensure_table, save_score, top_scores, personal_best
 
 # Initialization
 pygame.init()
@@ -12,6 +12,7 @@ SCREEN = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Snake")
 CLOCK = pygame.time.Clock()
 ASSETS_PATH = pathlib.Path(__file__).parent / "assets"
+ensure_table()
 
 # Settings
 def load_settings():
