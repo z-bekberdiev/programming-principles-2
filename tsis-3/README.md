@@ -89,6 +89,5 @@ tsis-3/
 ├── persistence.py
 └── assets/
     ├── settings.json
-    ├── leaderboard.json
-    └── (room for used images and sounds)
+    └── leaderboard.json
 ```
