@@ -7,21 +7,21 @@
 **Major**: Computer Systems and Software  
 
 ## :checkered_flag: Progress
-| Status      | Last Commit                       | Deadline                          | Name           | Description                           |
-|:-----------:|-----------------------------------|-----------------------------------|----------------|:-------------------------------------:|
-| `Completed` | [Jan 25, 2026 at 4:13 PM][1]      | Jan 28, 2026 at 10:00 AM          | Practice 1     | [README.md](practice-1/README.md)     |
-| `Completed` | [Jan 27, 2026 at 2:06 PM][2]      | Feb 4, 2026 at 10:00 AM           | Practice 2     | [README.md](practice-2/README.md)     |
-| `Completed` | [Feb 3, 2026 at 9:10 PM][3]       | Feb 18, 2026 at 10:00 AM          | Practice 3     | [README.md](practice-3/README.md)     |
-| `Completed` | [Feb 18, 2026 at 1:54 PM][4]      | Feb 25, 2026 at 10:00 AM          | Practice 4     | [README.md](practice-4/README.md)     |
-| `Completed` | [Mar 3, 2026 at 10:13 PM][5]      | Mar 4, 2026 at 10:00 AM           | Practice 5     | [README.md](practice-5/README.md)     |
-| `Completed` | [Mar 2, 2026 at 10:56 PM][6]      | Mar 18, 2026 at 10:00 AM          | Practice 6     | [README.md](practice-6/README.md)     |
-| `Completed` | [Mar 24, 2026 at 2:25 PM][7-8]    | Mar 25 - Apr 1, 2026 at 10:00 AM  | Practice 7-8   | [README.md](practice-7-8/README.md)   |
-| `Completed` | [Apr 4, 2026 at 12:29 PM][9]      | Apr 15, 2026 at 10:00 AM          | Practice 9     | [README.md](practice-9/README.md)     |
-| `Completed` | [Apr 17, 2026 at 1:15 AM][10-11]  | Apr 22 - Apr 29, 2026 at 10:00 AM | Practice 10-11 | [README.md](practice-10-11/README.md) |
-| `Completed` | [Apr 28, 2026 at 2:03 PM][tsis-1] | Apr 29, 2026 at 8:00 AM           | TSIS 1         | [README.md](tsis-1/README.md)         |
-| `Completed` | [Apr 28, 2026 at 2:41 PM][tsis-2] | Apr 29, 2026 at 8:00 AM           | TSIS 2         | [README.md](tsis-2/README.md)         |
-| `Completed` | [Apr 28, 2026 at 4:40 PM][tsis-3] | Apr 29, 2026 at 8:00 AM           | TSIS 3         | [README.md](tsis-3/README.md)         |
-| `Completed` | [Apr 28, 2026 at 4:39 PM][tsis-4] | Apr 29, 2026 at 8:00 AM           | TSIS 4         | [README.md](tsis-4/README.md)         |  
+| Status      | Last Commit                    | Deadline             | Name           | Description                           |
+|:-----------:|:------------------------------:|:--------------------:|----------------|:-------------------------------------:|
+| `Completed` | [Jan 25, 2026 ~ 16:13][1]      | Jan 28, 2026 ~ 10:00 | Practice 1     | [README.md](practice-1/README.md)     |
+| `Completed` | [Jan 27, 2026 ~ 14:06][2]      | Feb 04, 2026 ~ 10:00 | Practice 2     | [README.md](practice-2/README.md)     |
+| `Completed` | [Feb 03, 2026 ~ 21:10][3]      | Feb 18, 2026 ~ 10:00 | Practice 3     | [README.md](practice-3/README.md)     |
+| `Completed` | [Feb 18, 2026 ~ 13:54][4]      | Feb 25, 2026 ~ 10:00 | Practice 4     | [README.md](practice-4/README.md)     |
+| `Completed` | [Mar 03, 2026 ~ 22:13][5]      | Mar 04, 2026 ~ 10:00 | Practice 5     | [README.md](practice-5/README.md)     |
+| `Completed` | [Mar 02, 2026 ~ 22:56][6]      | Mar 18, 2026 ~ 10:00 | Practice 6     | [README.md](practice-6/README.md)     |
+| `Completed` | [Mar 24, 2026 ~ 14:25][7-8]    | Mar 25, 2026 ~ 10:00 | Practice 7-8   | [README.md](practice-7-8/README.md)   |
+| `Completed` | [Apr 04, 2026 ~ 12:29][9]      | Apr 15, 2026 ~ 10:00 | Practice 9     | [README.md](practice-9/README.md)     |
+| `Completed` | [Apr 17, 2026 ~ 01:15][10-11]  | Apr 22, 2026 ~ 10:00 | Practice 10-11 | [README.md](practice-10-11/README.md) |
+| `Completed` | [Apr 28, 2026 ~ 14:03][tsis-1] | Apr 29, 2026 ~ 08:00 | TSIS 1         | [README.md](tsis-1/README.md)         |
+| `Completed` | [Apr 28, 2026 ~ 14:41][tsis-2] | Apr 29, 2026 ~ 08:00 | TSIS 2         | [README.md](tsis-2/README.md)         |
+| `Completed` | [Apr 28, 2026 ~ 16:40][tsis-3] | Apr 29, 2026 ~ 08:00 | TSIS 3         | [README.md](tsis-3/README.md)         |
+| `Completed` | [Apr 28, 2026 ~ 16:39][tsis-4] | Apr 29, 2026 ~ 08:00 | TSIS 4         | [README.md](tsis-4/README.md)         |  
 
 ## :phone: Contact me
 **Microsoft Outlook**: [Send a mail](mailto:z_bekberdiev@kbtu.kz)  
